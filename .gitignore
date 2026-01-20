@@ -1,0 +1,44 @@
+# ROS2 build system
+build/
+install/
+log/
+
+# Colcon
+*.colcon_install_layout
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# ROS2 generated
+*.db
+*.bag
+*.yaml~
+*.rviz~
+
+# Gazebo / Simulation
+*.world~
+*.sdf~
+*.urdf~
+*.xacro~
+
+# Temporary files
+*.tmp
+*.log
